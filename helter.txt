@@ -1,0 +1,7 @@
+
+go get github.com/redis/go-redis/v9
+//============================ 
+ docker run --name redis-newtest -p 6379:6379 -d redis
+
+
+docker exec -it redis-newtest redis-cli
